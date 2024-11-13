@@ -92,6 +92,7 @@ It has multiple lines.
 Practice operating on the entire paragraph."""
 
 # Search with /, ?
+# You can also search for the word under the cursor with *
 # Find occurrences of 'find' in this block
 print("Can you find the word find?")
 print("There might be more than one find to find.")
