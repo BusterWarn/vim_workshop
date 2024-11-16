@@ -1,1 +1,1 @@
-Coming soon
+A simple banking system
