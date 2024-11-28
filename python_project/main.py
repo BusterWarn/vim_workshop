@@ -14,8 +14,11 @@ def main():
         "9780451524935"
     )
 
-    # 4. LSP will show error if you uncomment (wrong types)
+    # 4. LSP will show error if you uncomment
+    # y = \x + 12
+    # The pyright LSP is even better, it would show errors on both lines below
     # book2 = Book(123, [], "invalid")
+    # book2.this_function_does_not_exists()
 
     # 5. Code completion for methods
     library.add_book(book1)
