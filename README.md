@@ -149,3 +149,9 @@ nvim
 ```bash
 cp -r lua/* ~/.config/nvim/lua/
 ```
+
+### Python LSP
+
+```bash
+pip install jedi-language-server
+```
